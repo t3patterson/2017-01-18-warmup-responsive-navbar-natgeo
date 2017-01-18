@@ -17,10 +17,15 @@ ul {
   padding: 0; 
 }
 
-.column-container {
+#app-container{
+	padding-top: 73px;
+}
+
+.u_column-container {
   font-size: 0; 
 }
-  .column-container > * {
+
+.u_column-container > * {
     display: inline-block;
     vertical-align: top;
     font-size: medium; 
@@ -30,6 +35,7 @@ ul {
   max-width: 800px;
   margin: 0 auto; 
 }
+
 
 .icon {
   display: inline-block;
@@ -88,7 +94,8 @@ ul {
 .column-container > * {
   display: inline-block;
   vertical-align: top;
-  font-size: medium; }
+  font-size: medium; 
+}
 
 .header {
   font-family: "GillSans";
@@ -102,6 +109,7 @@ ul {
   margin: 0;
   letter-spacing: 12px; 
 }
+
 
 .section__title {
   margin: 0;
@@ -273,6 +281,95 @@ ul {
 
 /*----------------------*/
 /* (2)YOUR NAVBAR CSS (including media-queries) HERE: */
+.nav{
+	padding: 15px 10px;
+	position: fixed;
+	top: 0; left: 0;
+	width: 100%;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	
+}
+
+.nav__logo-column{
+	width: 33.33%;
+}
+
+.nav__nav-options-column{
+	width: 66.67%;
+}
+
+.nav__site_logo{
+	max-width: 150px;
+}
+
+.nav__small-screen-options{
+	text-align: right;
+}
+
+.nav__big-screen-options{
+	display: none;
+}
+
+.nav__icon{
+	display: inline-block;
+	margin: 9px;
+	font-size: 36px;
+}
+
+.nav__tab-link{
+	padding: 12px;
+	width: 25%;
+	text-align: center;
+	border-left: 2px solid palegoldenrod;
+	color: #aaa;
+	text-transform: uppercase;
+	font-family: "GillSans";
+	font-size: 18px;
+	letter-spacing: 2px;
+
+	font-weight: 200;
+}
+
+.nav__tab-link:hover{
+	background-color: #333;
+	color: #fff;
+}
+
+
+.nav__menu-icon:hover{
+	background: #333;
+	color: #fff;
+}
+
+.nav__menu-icon:hover ~ .nav__hover-menu{
+	display: block;
+}
+
+.nav__hover-menu{
+	background: palegoldenrod;
+	text-align: right;
+	display: none;
+}
+
+
+@media screen and (min-width: 600px){
+	.nav__icon{
+		display: inline-block;
+		font-size: 48px;
+	}
+}
+
+@media screen and (min-width: 1000px){
+	.nav__small-screen-options{
+		display: none;
+	}
+	
+	.nav__big-screen-options{
+		display: block;
+	}
+
+}
 
 
 
