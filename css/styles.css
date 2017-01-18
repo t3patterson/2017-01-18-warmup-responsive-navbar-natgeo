@@ -1,0 +1,279 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+img {
+  width: 100%;
+  display: block; 
+}
+
+ul {
+  margin: 0;
+  padding: 0; 
+}
+
+.column-container {
+  font-size: 0; 
+}
+  .column-container > * {
+    display: inline-block;
+    vertical-align: top;
+    font-size: medium; 
+}
+
+.u_max-container {
+  max-width: 800px;
+  margin: 0 auto; 
+}
+
+.icon {
+  display: inline-block;
+  margin-left: 2px;
+  margin-right: 2px; 
+}
+
+.link_underline {
+  display: inline-block;
+  border-bottom: 2px solid #fecd2f; 
+}
+
+.link_tw {
+  color: #38a9ee; 
+}
+
+.link_fb {
+  color: #425499; 
+}
+
+.link_ig {
+  color: #577da5; 
+}
+
+.button {
+  text-align: center;
+  border: 2px #333 solid;
+  background: #fff;
+  outline: 0; 
+}
+
+.button_sm {
+  padding: 9px 6px;
+  font-size: 12px; 
+}
+
+.button_lg {
+  padding: 21px 12px;
+  font-size: 21px; 
+}
+
+.button_full-width {
+  display: block;
+  width: 100%; 
+}
+
+.max-container {
+  max-width: 800px;
+  margin: 0 auto; 
+}
+
+.column-container {
+  font-size: 0; 
+}
+
+.column-container > * {
+  display: inline-block;
+  vertical-align: top;
+  font-size: medium; }
+
+.header {
+  font-family: "GillSans";
+  /*background: yellow;*/
+  padding: 50px 0; 
+}
+
+.header__title {
+  font-weight: 200;
+  font-size: 30px;
+  margin: 0;
+  letter-spacing: 12px; 
+}
+
+.section__title {
+  margin: 0;
+  font-family: "GillSans", "Avenir", "sans-serif";
+  font-weight: 200;
+  letter-spacing: 6px;
+  font-size: 24px; 
+}
+
+.section__link {
+  font-family: "GillSans", "Avenir", "sans-serif";
+  font-weight: 200;
+  display: inline-block;
+  margin: 18px 0 36px 0; 
+}
+
+.section__button {
+  max-width: 600px;
+  margin: 12px auto 30px auto; 
+}
+
+.article_synopsis {
+  margin-bottom: 20px; 
+}
+
+.article_synopsis__img-column {
+  width: 100%; 
+}
+
+.article_synopsis__text-column {
+  width: 100%;
+  padding: 0; 
+}
+
+.article_synopsis__title {
+  margin: 0 0 12px 0;
+  font-family: "Helvetica Neue", "Helvetica", "sans-serif"; 
+}
+
+.article_synopsis__body-text {
+  margin: 0;
+  font-family: "Georgia", "Palatino", "serif";
+  border-left: #ababab 1px solid;
+  padding-left: 9px; 
+}
+
+.user-links {
+  background: #333;
+  color: #fff; 
+}
+
+.user-links__column {
+  /* Exhibit B.2.iii - Responsive Column Element(mobile)*/
+  width: 100%;
+  padding: 36px;
+  text-align: center; 
+}
+
+.user-links__title {
+  font-weight: 100;
+  font-family: "GillSans", "Avenir", "sans-serif";
+  letter-spacing: 2px; 
+}
+
+.user-links__link-icon {
+  font-size: 21px; 
+}
+
+.user-links__body-text {
+  font-size: 14px;
+  font-family: "Helvetica Neue", "Helvetica", "sans-serif"; 
+}
+
+.footer {
+  background: #ddd;
+  padding: 21px 0 18px 0; 
+}
+
+.footer__subscribe-column,
+.footer__follow-column {
+  padding: 18px; 
+}
+
+.footer__title {
+  font-size: 24px;
+  font-family: "GillSans";
+  font-weight: 200;
+  letter-spacing: 2px;
+  margin: 0; 
+}
+
+.footer__subscribe-column {
+  width: 100%; 
+}
+
+.footer__follow-column {
+  width: 100%; 
+}
+
+@media screen and (min-width: 600px) {
+  .nav__icon {
+    font-size: 48px; 
+  }
+
+  .header {
+    padding: 60px 0; 
+  }
+
+  .header__title {
+    font-size: 42px; 
+  }
+
+  .article_synopsis__img-column {
+    width: 60%; 
+  }
+
+  .article_synopsis__text-column {
+    width: 40%; 
+  }
+
+  .article_synopsis__text-column {
+    padding: 0 9px; 
+  }
+
+  .article_synopsis__body-text {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .user-links__column {
+    width: 50%; 
+  }
+
+  .footer {
+    padding-left: 18px; 
+  }
+
+  .footer__subscribe-column {
+    width: 66.67%;
+    border-left: 1px solid #aaa; 
+	}
+
+  .footer__follow-column {
+    width: 33.33%;
+    border-left: 1px solid #aaa; 
+	} 
+}
+@media screen and (min-width: 1000px) {
+  .nav__full-menu {
+    display: block; 
+	}
+
+  .nav__small-menu {
+    display: none; 
+	}
+
+  .header {
+    padding: 70px 0; 
+	}
+
+  .header__title {
+    font-size: 54px; 
+	}
+
+  .user-links__column {
+    width: 25%; 
+  } 
+}
+
+/*----------------------*/
+/* (2)YOUR NAVBAR CSS (including media-queries) HERE: */
+
+
+
+/*----------------------*/

@@ -3,53 +3,125 @@
 	<head>
 		<meta charset="utf-8">
 		<title>National Geographic | Travel</title>
+		<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+		<link rel="stylesheet" href="./css/styles.css">
 	</head>
 	<body>
 		<div id="app-container">
-			<header class="major-topic">
-				<h1>TRAVEL</h1>
+			
+			<!-- (1) YOUR NAVBAR HTML  -->
+				
+				<!-- 
+					These might come in handy:
+ 	
+					<i class="ion-navicon"></i>
+					<i class="ion-ios-search"></i>
+				-->
+
+			<!-- /END  -->
+
+			<header class="header u_max-container">
+				<h1 class="header__title">PHOTOGRAPHY</h1>
 			</header>
 
-			<section class="content-section">
+			<section class="section u_max-container">
 				
-				<h3>TRAVEL PHOTOGRAPHY</h3>
+				<h3 class="section__title">TRAVEL PHOTOGRAPHY</h3>
+				<div class="link_underline section__link"><a href="#">SEE MORE</a></div>
 				
-				<h5>SEE MORE</h5>
-				
-				<div class="column-container article-previews">
+				<div class="section__article-previews">
 					
-					<article class="synopsis">
-						<h4>26 Beautiful Travel Photos of 2016</h4>
-						<p>Nat Geo Gravel editors picked their favorite travel photos published in to17. See majestic images from around the world that struck...</p>
+					<article class="article_synopsis column-container">
+
+						<div class="article_synopsis__img-column">
+							<img src="./images/img-compact-cameras.png" alt="">
+						</div>
+						
+						<div class="article_synopsis__text-column">
+							<h3 class="article_synopsis__title">Top 10 Compact Cameras for Travelers</h3>
+							<p class="article_synopsis__body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vero necessitatibus ducimus animi maxime, ullam architecto quasi ea. Repellat officia et tempora quod, illo autem asperiores delectus saepe dolorum ducimus.</p>
+						</div>
+
 					</article>
 
-					<article class="synopsis">
-						<h4></h4>
-						<p>Home to modern skyscrapers and historic colonial architecture, Santiago offers visitors the chance step between past and ...</p>
+					<article class="article_synopsis column-container">		
+						<div class="article_synopsis__img-column">
+							<img src="./images/img-supermoon.png" alt="">
+						</div>
+						<div class="article_synopsis__text-column">
+							<h3 class="article_synopsis__title">How to Photograph a Supermoon</h3>
+							<p class="article_synopsis__body-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dignissimos et in explicabo, sapiente odit, modi enim totam esse nesciunt deleniti soluta perferendis similique. Saepe iste aspernatur, facilis reprehenderit quidem eaque veritatis animi.</p>
+						</div>
+						
 					</article>
 
 				</div>
 
-				<button>SHOW MORE</button>
+				<button class="button button_sm button_full-width section__button">SHOW MORE</button>
 
 			</section>
+			
+			<div class="user-links column-container">
+				
+				<div class="user-links__column">
+					<h3 class="user-links__title">FOLLOW NAT GEO PHOTOGRAPHY</h3>
+					<p class= "user-links__body-text">
+						<a href="#" class="icon link_tw user-links__link-icon">
+							<i class="ion-social-twitter"></i>
+						</a>
+						<a href="#" class="icon link_fb user-links__link-icon">
+							<i class="ion-social-facebook"></i>
+						</a>
+						<a href="#" class="icon link_ig user-links__link-icon">
+							<i class="ion-social-instagram-outline"></i>
+						</a>
+					</p>
+				</div>
 
-			<footer class="column-container">
+				<div class="user-links__column">
+					<h3 class="user-links__title">COMMUNITY</h3>
+					<p class="user-links__body-text">Join Your Shot, our photography community. Submit to assignments and get feedback from our photo editors.</p>
+					<p class="user-links__body-text">
+						<a href="#" class="link_underline"><strong>Join</strong></a>
+					</p>
+				</div>
 
-				<div class="subscribe-column">
-					<h3>Subscribe to Newsletters</h3>
+				<div class="user-links__column">
+					<h3 class="user-links__title">FROM THE ARCHIVES</h3>
+					<p class="user-links__body-text">Look through a curated collection of historical photos from our archives on National Geographic's Found Tumblr</p>
+					<p class="user-links__body-text">
+						<a href="#" class="link_underline"><strong>Explore</strong></a>
+					</p>
+				</div>
+				
+				<div class="user-links__column">
+					<h3 class="user-links__title">PICTURE STORIES</h3>
+					<p class="user-links__body-text">Check out the latest work from National Geographic photographers and visual storytellers around the world.</p>
+					<p class="user-links__body-text">
+						<a href="#" class="link_underline"><strong>See More</strong></a>
+					</p>
+				</div>
+
+			</div>
+
+			<footer class="footer column-container">
+
+				<div class="footer__subscribe-column">
+					<h3 class="footer__title">Subscribe to Newsletters</h3>
 					<form class="enter-email">
 						<input type="text">
 						<button>SIGN UP</button>
 					</form>
 				</div>
 
-				<div class="follow-column">
-					<h3>Follow Us</h3>
+
+				<div class="footer__follow-column">
+					<h3 class="footer__title">Follow Us</h3>
 					<div class="social-media-icons">
-						
+						<i class="fa fa-facebook" aria-hidden="true"></i>
 					</div>
 				</div>
+
 
 			</footer>
 		</div>
